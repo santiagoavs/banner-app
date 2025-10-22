@@ -3,7 +3,7 @@ export default function handler(req, res) {
   <defs>
     <!-- Radial gradients for animated effect -->
     <radialGradient id="grad1" cx="20%" cy="20%" r="50%">
-      <stop offset="0%" style="stop-color:rgba(102, 190, 134, 0.6);stop-opacity:1">
+      <stop offset="0%" style="stop-color:rgba(67, 166, 140, 0.4);stop-opacity:1">
         <animate attributeName="cx" values="20%;25%;30%;25%;20%" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="cy" values="20%;25%;30%;25%;20%" dur="15s" repeatCount="indefinite"/>
       </stop>
@@ -11,7 +11,7 @@ export default function handler(req, res) {
     </radialGradient>
     
     <radialGradient id="grad2" cx="80%" cy="30%" r="45%">
-      <stop offset="0%" style="stop-color:rgba(67, 166, 140, 0.5);stop-opacity:1">
+      <stop offset="0%" style="stop-color:rgba(70, 128, 149, 0.5);stop-opacity:1">
         <animate attributeName="cx" values="80%;75%;70%;75%;80%" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="cy" values="30%;35%;40%;35%;30%" dur="15s" repeatCount="indefinite"/>
       </stop>
@@ -19,7 +19,7 @@ export default function handler(req, res) {
     </radialGradient>
     
     <radialGradient id="grad3" cx="15%" cy="75%" r="55%">
-      <stop offset="0%" style="stop-color:rgba(70, 128, 149, 0.7);stop-opacity:1">
+      <stop offset="0%" style="stop-color:rgba(65, 115, 136, 0.6);stop-opacity:1">
         <animate attributeName="cx" values="15%;20%;25%;20%;15%" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="cy" values="75%;70%;65%;70%;75%" dur="15s" repeatCount="indefinite"/>
       </stop>
@@ -27,7 +27,7 @@ export default function handler(req, res) {
     </radialGradient>
     
     <radialGradient id="grad4" cx="75%" cy="80%" r="50%">
-      <stop offset="0%" style="stop-color:rgba(65, 115, 136, 0.6);stop-opacity:1">
+      <stop offset="0%" style="stop-color:rgba(67, 166, 140, 0.5);stop-opacity:1">
         <animate attributeName="cx" values="75%;70%;65%;70%;75%" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="cy" values="80%;75%;70%;75%;80%" dur="15s" repeatCount="indefinite"/>
       </stop>
@@ -35,7 +35,7 @@ export default function handler(req, res) {
     </radialGradient>
     
     <radialGradient id="grad5" cx="90%" cy="55%" r="40%">
-      <stop offset="0%" style="stop-color:rgba(65, 82, 104, 0.8);stop-opacity:1">
+      <stop offset="0%" style="stop-color:rgba(51, 56, 74, 0.7);stop-opacity:1">
         <animate attributeName="cx" values="90%;85%;80%;85%;90%" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="cy" values="55%;60%;65%;60%;55%" dur="15s" repeatCount="indefinite"/>
       </stop>
@@ -43,12 +43,11 @@ export default function handler(req, res) {
     </radialGradient>
     
     <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#33384a;stop-opacity:1"/>
-      <stop offset="20%" style="stop-color:#3d4a5e;stop-opacity:1"/>
-      <stop offset="40%" style="stop-color:#417388;stop-opacity:1"/>
-      <stop offset="60%" style="stop-color:#468095;stop-opacity:1"/>
-      <stop offset="80%" style="stop-color:#43a68c;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#66be86;stop-opacity:1"/>
+      <stop offset="0%" style="stop-color:#2d4a5a;stop-opacity:1"/>
+      <stop offset="25%" style="stop-color:#3a6070;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#468095;stop-opacity:1"/>
+      <stop offset="75%" style="stop-color:#4a9688;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#52a88a;stop-opacity:1"/>
     </linearGradient>
     
     <filter id="glow">
@@ -66,7 +65,7 @@ export default function handler(req, res) {
         font-weight: 700;
         fill: white;
         text-anchor: middle;
-        letter-spacing: 2px;
+        letter-spacing: 0px;
         filter: url(#glow);
       }
       .subtitle {
