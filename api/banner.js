@@ -77,7 +77,7 @@ export default function handler(req, res) {
       }
       .description {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 300;
         fill: rgba(255, 255, 255, 0.85);
         text-anchor: middle;
@@ -97,7 +97,7 @@ export default function handler(req, res) {
   
   <!-- Content -->
   <text x="600" y="150" class="title">Santiago Ávila</text>
-  <text x="600" y="210" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="195" class="subtitle">Full Stack Developer</text>
   <text x="600" y="235" class="description">Nivel avanzado en inglés (C1)</text>
 </svg>`;
 
