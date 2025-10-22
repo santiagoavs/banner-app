@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const svg = `<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  const svg = `<svg width="1200" height="300" border-radius="15px" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Radial gradients for animated effect -->
     <radialGradient id="grad1" cx="20%" cy="20%" r="50%">
@@ -96,8 +96,8 @@ export default function handler(req, res) {
   <rect width="1200" height="300" fill="url(#grad5)"/>
   
   <!-- Content -->
-  <text x="600" y="100" class="title">Santiago Ávila</text>
-  <text x="600" y="150" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="120" class="title">Santiago Ávila</text>
+  <text x="600" y="170" class="subtitle">Full Stack Developer</text>
   <text x="600" y="190" class="description">Nivel avanzado en inglés (C1)</text>
 </svg>`;
 
