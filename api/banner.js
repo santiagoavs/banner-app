@@ -70,14 +70,14 @@ export default function handler(req, res) {
       }
       .subtitle {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 44px;
+        font-size: 30px;
         font-weight: 300;
         fill: rgba(255, 255, 255, 0.95);
         text-anchor: middle;
       }
       .description {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 36px;
+        font-size: 22px;
         font-weight: 300;
         fill: rgba(255, 255, 255, 0.85);
         text-anchor: middle;
@@ -97,8 +97,8 @@ export default function handler(req, res) {
   
   <!-- Content -->
   <text x="600" y="150" class="title">Santiago Ávila</text>
-  <text x="600" y="200" class="subtitle">Full Stack Developer</text>
-  <text x="600" y="225" class="description">Nivel avanzado en inglés (C1)</text>
+  <text x="600" y="210" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="235" class="description">Nivel avanzado en inglés (C1)</text>
 </svg>`;
 
   res.setHeader('Content-Type', 'image/svg+xml');
