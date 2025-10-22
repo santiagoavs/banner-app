@@ -96,9 +96,9 @@ export default function handler(req, res) {
   <rect width="1200" height="300" fill="url(#grad5)"/>
   
   <!-- Content -->
-  <text x="600" y="120" class="title">Santiago Ávila</text>
-  <text x="600" y="170" class="subtitle">Full Stack Developer</text>
-  <text x="600" y="190" class="description">Nivel avanzado en inglés (C1)</text>
+  <text x="600" y="150" class="title">Santiago Ávila</text>
+  <text x="600" y="200" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="220" class="description">Nivel avanzado en inglés (C1)</text>
 </svg>`;
 
   res.setHeader('Content-Type', 'image/svg+xml');
