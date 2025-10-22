@@ -61,7 +61,7 @@ export default function handler(req, res) {
     <style>
       .title {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 72px;
+        font-size: 68px;
         font-weight: 700;
         fill: white;
         text-anchor: middle;
@@ -97,7 +97,7 @@ export default function handler(req, res) {
   
   <!-- Content -->
   <text x="600" y="150" class="title">Santiago Ávila</text>
-  <text x="600" y="195" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="200" class="subtitle">Full Stack Developer</text>
   <text x="600" y="235" class="description">Nivel avanzado en inglés (C1)</text>
 </svg>`;
 
