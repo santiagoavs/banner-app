@@ -97,7 +97,7 @@ export default function handler(req, res) {
   
   <!-- Content -->
   <text x="600" y="150" class="title">Santiago Ávila</text>
-  <text x="600" y="200" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="205" class="subtitle">Full Stack Developer</text>
   <text x="600" y="235" class="description">Nivel avanzado en inglés (C1)</text>
 </svg>`;
 
